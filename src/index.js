@@ -4,12 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/home';
 import Mylistpage from './pages/mylistpage';
-
+import Uplode from './pages/uplode';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Home />
     <Mylistpage/>
+    <Uplode/>
   </React.StrictMode>
 );
 
